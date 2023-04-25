@@ -9,7 +9,7 @@
 }
 .hero__bg{
     position: absolute;
-    background-image: url('images/bg-intro-mobile.svg');
+    background-image: url('./images/bg-intro-mobile.svg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0 0;
@@ -79,7 +79,7 @@
 
     .hero__bg{
         position: absolute;
-        background-image: url('images/bg-intro-desktop.svg');
+        background-image: url('./images/bg-intro-desktop.svg');
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: 42vw 50%;

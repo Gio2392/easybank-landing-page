@@ -1,0 +1,70 @@
+/* ####################### */
+/* ####### PROFITS ####### */
+/* ####################### */
+.profits{
+    background: var(--LightGrayishBlue);
+    padding: 5rem 1.5rem;
+}
+.profits__title{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.profits__text{
+    font-size: var(--fs-profits-m);
+    color: var(--GrayishBlue);
+    line-height: var(--line-height);
+}
+.profits__content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( calc(90rem / 4), 1fr));
+    gap: 3rem;
+}
+.profits__card{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.card__image{
+    width: 6.6rem;
+}
+.card__title {
+    font-size: var(--fs-profits-l);
+    font-weight: var(--fw-light);
+    color: var(--DarkBlue);
+}
+.card__text {
+    font-size: var(--fs-profits-s);
+    color: var(--GrayishBlue);
+    line-height: var(--line-height);
+
+}
+@media (min-width: 768px) {
+    .profits__title {
+        gap: 1rem;
+        text-align: left;
+        padding-bottom: 5rem;
+    }
+    .profits__text {
+        max-width: 50rem;
+    }
+}
+@media (min-width: 992px) {
+    .profits__content{
+        gap: 2rem;
+    }
+    .profits__text {
+        max-width: 62rem;
+    }
+    .profits__card{
+        text-align: unset;
+        align-items: flex-start;
+    }
+    .card__image{
+        width: 7.5rem;
+    }
+}

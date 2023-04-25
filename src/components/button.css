@@ -1,0 +1,12 @@
+.btn{
+    background: linear-gradient(to right, var(--LimeGreen), var(--BrightCyan));
+    color: var(--White);
+    font-size: var(--fs-btn-m);
+    padding: 1em 2em;
+    border-radius: 4rem;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+.btn:hover{
+    opacity: .6;
+}
